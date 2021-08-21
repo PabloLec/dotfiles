@@ -1,0 +1,93 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 79,
+    "editor.rulers": [
+
+        88,
+    ],
+    "python.linting.pylintArgs": [
+        "--max-line-length=88"
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length=119"
+    ],
+        "explorer.confirmDelete": false,
+        "workbench.editorAssociations": {
+            "*.ipynb": "jupyter-notebook"
+        },
+        "editor.detectIndentation": false,
+        "indentRainbow.colors": [
+            "rgba(16,16,16,0.1)",
+            "rgba(16,16,16,0.2)",
+            "rgba(16,16,16,0.3)",
+            "rgba(16,16,16,0.4)",
+            "rgba(16,16,16,0.5)",
+            "rgba(16,16,16,0.6)",
+            "rgba(16,16,16,0.7)",
+            "rgba(16,16,16,0.8)",
+            "rgba(16,16,16,0.9)",
+            "rgba(16,16,16,1.0)"
+        ],
+        "indentRainbow.ignoreErrorLanguages" : [
+            "django-html",
+            "html",
+            "css",
+            "javascript",
+        ],
+        "workbench.iconTheme": "file-icons",
+        "tabnine.experimentalAutoImports": true,
+        "python.formatting.provider": "black",
+        "cSpell.userWords": [
+            "recoverpy"
+        ],
+        "git.enableSmartCommit": true,
+        "git.autofetch": true,
+        "python.formatting.blackArgs": [
+            "--line-length",
+            "119"
+        ],
+        "editor.defaultFormatter": "ms-python.python",
+        "[markdown]": {
+
+            "editor.wordWrap": "on",
+            "editor.quickSuggestions": false,
+            "editor.formatOnSave": false
+        },
+        "files.insertFinalNewline": true,
+        "html.format.endWithNewline": true,
+        "cSpell.enableFiletypes": [
+            "!django-html"
+        ],
+        "[django-html]": {
+            "editor.formatOnSave": false,
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.quickSuggestions": {
+                "other": true,
+                "comments": true,
+                "strings": true
+            }
+        },
+        "[javascript]": {
+            "editor.formatOnSave": true,
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+        },
+        "[css]": {
+            "editor.formatOnSave": true,
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "liveServer.settings.donotShowInfoMsg": true,
+        "terminal.integrated.automationShell.linux": "/usr/bin/zsh",
+        "prettier.printWidth": 120,
+        "[json]": {
+
+            "editor.quickSuggestions": {
+                "strings": true
+            },
+            "editor.suggest.insertMode": "replace"
+        },
+        "editor.formatOnSave": true,
+        "sourcery.token": "user_AqZF_CxJUfgI_vdlNzTklAUp3_zyCLI1sHGIzSs_HVfmyovxKnua_Yzw57s",
+}
