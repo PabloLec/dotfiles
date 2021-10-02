@@ -4,18 +4,22 @@
   title_transmit_bg_color = "#4e9a06"
   suppress_multiple_term_dialog = True
 [keybindings]
-  go_up = ""
-  go_down = ""
-  go_left = ""
-  go_right = ""
+  new_tab = <Alt>KP_Add
+  split_horiz = <Alt>KP_Decimal
+  split_vert = <Alt>KP_Enter
+  close_term = <Alt>KP_Subtract
   copy = <Primary>c
   paste = <Primary>v
   close_window = F1
+  next_tab = <Primary><Alt>Right
+  prev_tab = <Primary><Alt>Left
+  new_window = <Primary><Shift><Meta>p
+  previous_profile = <Primary><Alt>ISO_Level3_Shift
 [profiles]
   [[default]]
     background_color = "#282828"
     cursor_color = "#aaaaaa"
-    font = Hack Nerd Font 10
+    font = Hack 10
     foreground_color = "#ebdbb2"
     show_titlebar = False
     use_system_font = False
